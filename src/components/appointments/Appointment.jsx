@@ -2,6 +2,7 @@
 import React from 'react'
 import "./appointment.css"
 import {TbMathFunction} from "react-icons/tb"
+import {BsImageFill} from "react-icons/bs"
 
 const data = [
     {
@@ -38,7 +39,7 @@ const Appointment = () => {
                         return (
                             <a href={link} target="_blank">
                                 <article className='appointment'>
-                                    <TbMathFunction />
+                                    <BsImageFill className='service__icon'/>
                                     <h2>{name}</h2>
                                     <small>{description}</small>
                                 </article>

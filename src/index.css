@@ -66,6 +66,13 @@ section#testimonials {
     margin-top: 4rem;
 }
 
+section#events > h2 {
+    color: var(--color-primary);
+}
+
+section#events > h5 {
+    color: var(--color-white);
+}
 
 /* ============== General Styles ================ */
 .container {

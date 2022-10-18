@@ -1,10 +1,16 @@
 #appointment {
     margin-top: 4rem;
 }
+
 .appointment__container {
     color: var(--color-white);
 }
 
+/* .service__icon{
+    font-size: 3rem;
+    content: icon;
+   place-items: center;
+} */
 .appointment__container .appointment__header {
     margin:3rem 0 2rem 0;
     color: var(--color-primary);
@@ -28,7 +34,7 @@
 }
 
 .appointment:hover {
-    background: #FAD4D4;
+    background: #f4eded;
     color: black;
     border-color: var(--color-primary-variant);
     cursor: pointer;
