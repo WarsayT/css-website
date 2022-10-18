@@ -1,0 +1,37 @@
+#appointment {
+    margin-top: 4rem;
+}
+.appointment__container {
+    color: var(--color-white);
+}
+
+.appointment__container .appointment__header {
+    margin:3rem 0 2rem 0;
+    color: var(--color-primary);
+    border-bottom: #c55c5c 30px;
+
+}
+
+.appointments {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+}
+
+.appointment {
+    /* display: inline-block; */
+    padding: 2rem 3rem;
+    background: #B85252;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.appointment:hover {
+    background: #FAD4D4;
+    color: black;
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+    transition: var(--transition); 
+}
+
