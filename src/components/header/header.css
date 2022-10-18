@@ -7,7 +7,7 @@
 }
 
 nav {
-    margin: 0 auto 0 10rem;
+    margin: 0 auto 0 8rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,23 +35,28 @@ nav .nav__search {
 }
 .nav__links ul{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
     margin: 0 0 0 8rem;
  
 }
+
 .nav__item a{
     color: var(--color-white);
     transition: var(--transition);
 }
 
 .nav__links a:hover {
-    color: var(--color-white);
+    color: var(--color-bg);
 }
 
 .home__logo {
     margin-left: 2rem;
     font-size: 25px;
+}
+
+.home__logo a:hover {
+    color: var(--color-bg);
 }
 
 .dropdown select {

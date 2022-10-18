@@ -30,9 +30,10 @@ const Header = () => {
                     </form>
                     <div className="nav__links">
                         <ul >
-                            <li className="nav__item"><a href="#contact">Contact</a></li>
-                            <li className="nav__item"><a href="#contact">Contact</a></li>
-                            <li className="nav__item"><a href="#contact">Contact</a></li>
+                            <li className="nav__item"><a href="#contact">Services</a></li>
+                            <li className="nav__item"><a href="#contact">Events</a></li>
+                            <li className="nav__item"><a href="#contact">Requests</a></li>
+                            <li className="nav__item"><a href="#contact">Resources</a></li>
                             <li className="nav__item"><a href="#contact">Contacts</a></li>
                         </ul>
                     </div>
